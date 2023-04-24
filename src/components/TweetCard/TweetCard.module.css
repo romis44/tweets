@@ -72,7 +72,7 @@
     color: #373737;
 }
 
-/* .active {
+.active {
     composes: btn;
     background-color: #5cd3a8;
-} */
+}

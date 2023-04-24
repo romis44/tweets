@@ -3,7 +3,7 @@ import css from './Home.module.css';
 const Home = () => {
   return (
     <main>
-      <p className={css.salutation}>Welcome to the tweets</p>
+      <p className={css.title}>Welcome to the tweets</p>
     </main>
   );
 };

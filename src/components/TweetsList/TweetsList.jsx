@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import { useSelector } from 'react-redux';
 
-import { FiDownload } from 'react-icons/fi';
+import { BsForwardFill } from 'react-icons/bs';
 
 import { selectUsers } from '../../redux/selectors';
 import { TweetCard } from '../TweetCard/TweetCard';
 import css from './TweetsList.module.css';
 
-const ITEMS_PER_PAGE = 6;
+const ITEMS_PER_PAGE = 3;
 
 export const TweetsList = () => {
   const tweets = useSelector(selectUsers);
@@ -31,7 +31,7 @@ export const TweetsList = () => {
       {isButtonHidden ? null : (
         <button className={css.btn} type="button" onClick={handleLoadMore}>
           Load More
-          <FiDownload />
+          <BsForwardFill />
         </button>
       )}
     </>

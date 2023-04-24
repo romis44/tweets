@@ -1,14 +1,11 @@
-.salutation {
-    width: 700px;
-    margin: 160px auto 0;
-    padding: 90px 60px;
-
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(9px);
-    border-radius: 7px;
-    font-size: 34px;
-    font-weight: 800;
+.title {
+    width: 500px;
+    margin: 152px auto 0;
+    padding: 71px 60px;
+    color: #13673b;
+    background-color: rgb(199 228 102 / 50%);
+    border-radius: 41px;
+    font-size: 35px;
+    font-weight: 600;
     letter-spacing: 0.1em;
-    /* text-align: center; */
 }

@@ -18,23 +18,19 @@
 .btn {
     display: flex;
     align-items: center;
-    gap: 15px;
-    margin: 30px auto;
-    padding: 15px 25px;
-
-    background-color: #471ca9;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 10px;
+    gap: 13px;
+    margin: 29px auto;
+    padding: 10px 41px;
+    background-color: #fff;
+    box-shadow: rgb(51 40 40 / 32%) 3px 4px 16px 4px;
+    border-radius: 23px;
     border: none;
-
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 22px;
-
     text-transform: uppercase;
     cursor: pointer;
-
-    color: #fff;
+    color: #063524;
 }
