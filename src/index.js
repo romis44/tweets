@@ -1,10 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { App } from 'components/App';
-import './index.css';
+import { BrowserRouter } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import { store } from './redux/store';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+import App from './components/App/App';
+
+import './index.css';
+import '@fontsource/montserrat';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <BrowserRouter basename="/tweets">
+        <App />
+      </BrowserRouter>
+    </Provider>
   </React.StrictMode>
 );
