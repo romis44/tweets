@@ -22,7 +22,7 @@ subscribe to a user or unsubscribe.
 
 - React
 - Redux
-- React
+- React Router
 - Router
 - JavaScript
 - HTML
