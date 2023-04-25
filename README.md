@@ -16,10 +16,11 @@ from the database. By clicking on the Follow button in the card, you can
 subscribe to a user or unsubscribe.
 ```
 
-### TechnologiesReact
+### Technologies
 
 ---
 
+- React
 - Redux
 - React
 - Router
