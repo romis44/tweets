@@ -1,4 +1,4 @@
-##**_Tweets App_**
+## **_Tweets App_**
 
 ---
 
@@ -6,7 +6,7 @@
 
 ![](./src/images/screen1.png) ![](./src/images/screen2.png)
 
-###Description
+### Description
 
 ---
 
@@ -16,7 +16,7 @@ from the database. By clicking on the Follow button in the card, you can
 subscribe to a user or unsubscribe.
 ```
 
-###TechnologiesReact
+### TechnologiesReact
 
 ---
 
