@@ -33,4 +33,10 @@
     text-transform: uppercase;
     cursor: pointer;
     color: #063524;
+    transition: color 200ms linear;
+}
+
+.btn:hover,
+.btn:focus {
+    color: #1ac27c;
 }
