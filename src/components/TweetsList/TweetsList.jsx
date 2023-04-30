@@ -3,15 +3,17 @@ import { useSelector } from 'react-redux';
 
 import { BsForwardFill } from 'react-icons/bs';
 
-import { selectUsers } from '../../redux/selectors';
+import { selectUsers, selectIsLoading } from '../../redux/selectors';
 import { TweetCard } from '../TweetCard/TweetCard';
 import css from './TweetsList.module.css';
+import { Loader } from 'components/Loader/Loader';
 
 const ITEMS_PER_PAGE = 3;
 
 export const TweetsList = () => {
   const tweets = useSelector(selectUsers);
   const [page, setPage] = useState(1);
+  const isLoading = useSelector(selectIsLoading);
 
   const tweetsPerPage = tweets.slice(0, page * ITEMS_PER_PAGE);
   const isButtonHidden = page * ITEMS_PER_PAGE >= tweets.length;
@@ -28,6 +30,7 @@ export const TweetsList = () => {
           </li>
         ))}
       </ul>
+      {isLoading && <Loader />}
       {isButtonHidden ? null : (
         <button className={css.btn} type="button" onClick={handleLoadMore}>
           Load More
