@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/tweets/static/css/main.0e785a8e.css",
-    "main.js": "/tweets/static/js/main.909296b0.js",
+    "main.js": "/tweets/static/js/main.ec0917a5.js",
     "static/css/304.9cdd38a2.chunk.css": "/tweets/static/css/304.9cdd38a2.chunk.css",
     "static/js/304.c0a8da52.chunk.js": "/tweets/static/js/304.c0a8da52.chunk.js",
-    "static/css/696.d81f96ab.chunk.css": "/tweets/static/css/696.d81f96ab.chunk.css",
-    "static/js/696.ec2568ed.chunk.js": "/tweets/static/js/696.ec2568ed.chunk.js",
+    "static/css/696.35515888.chunk.css": "/tweets/static/css/696.35515888.chunk.css",
+    "static/js/696.dddecccf.chunk.js": "/tweets/static/js/696.dddecccf.chunk.js",
     "static/js/493.140179d3.chunk.js": "/tweets/static/js/493.140179d3.chunk.js",
     "static/media/montserrat-all-400-normal.woff": "/tweets/static/media/montserrat-all-400-normal.327fab0afc997a2d9b16.woff",
     "static/media/picture.png": "/tweets/static/media/picture.86562350dcaa714a1442.png",
@@ -16,15 +16,15 @@
     "static/media/montserrat-vietnamese-400-normal.woff2": "/tweets/static/media/montserrat-vietnamese-400-normal.8f3f4c99eb0eeb5990f1.woff2",
     "index.html": "/tweets/index.html",
     "main.0e785a8e.css.map": "/tweets/static/css/main.0e785a8e.css.map",
-    "main.909296b0.js.map": "/tweets/static/js/main.909296b0.js.map",
+    "main.ec0917a5.js.map": "/tweets/static/js/main.ec0917a5.js.map",
     "304.9cdd38a2.chunk.css.map": "/tweets/static/css/304.9cdd38a2.chunk.css.map",
     "304.c0a8da52.chunk.js.map": "/tweets/static/js/304.c0a8da52.chunk.js.map",
-    "696.d81f96ab.chunk.css.map": "/tweets/static/css/696.d81f96ab.chunk.css.map",
-    "696.ec2568ed.chunk.js.map": "/tweets/static/js/696.ec2568ed.chunk.js.map",
+    "696.35515888.chunk.css.map": "/tweets/static/css/696.35515888.chunk.css.map",
+    "696.dddecccf.chunk.js.map": "/tweets/static/js/696.dddecccf.chunk.js.map",
     "493.140179d3.chunk.js.map": "/tweets/static/js/493.140179d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0e785a8e.css",
-    "static/js/main.909296b0.js"
+    "static/js/main.ec0917a5.js"
   ]
 }
