@@ -23,6 +23,7 @@ export const TweetsList = () => {
   };
   return (
     <>
+      {isLoading && <Loader />}
       <ul className={css.list}>
         {tweetsPerPage.map(({ id, ...restProps }) => (
           <li className={css.item} key={id}>
@@ -30,7 +31,7 @@ export const TweetsList = () => {
           </li>
         ))}
       </ul>
-      {isLoading && <Loader />}
+
       {isButtonHidden ? null : (
         <button className={css.btn} type="button" onClick={handleLoadMore}>
           Load More
